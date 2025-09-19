@@ -1,6 +1,6 @@
 # Nesty Viewer
 
-![Nesty Viewer](icon.png)
+<img src="icon.png" alt="Nesty Viewer App Icon" width="200"/>
 
 A high-performance JSON viewer for macOS built with Swift and SwiftUI.
 
