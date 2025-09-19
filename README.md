@@ -1,5 +1,7 @@
 # Nesty Viewer
 
+![Nesty Viewer](icon.png)
+
 A high-performance JSON viewer for macOS built with Swift and SwiftUI.
 
 ## Features
