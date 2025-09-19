@@ -1,0 +1,90 @@
+{
+  "name": "Nesty Viewer Sample",
+  "version": "1.0.0",
+  "description": "A sample JSON file to test the Nesty Viewer application",
+  "features": [
+    "Drag and drop file loading",
+    "Collapsible tree view",
+    "Search functionality",
+    "Performance optimization"
+  ],
+  "configuration": {
+    "ui": {
+      "theme": "system",
+      "showLineNumbers": true,
+      "fontSize": 14,
+      "fontFamily": "SF Mono"
+    },
+    "performance": {
+      "lazyLoading": true,
+      "virtualScrolling": true,
+      "maxNodeDepth": 1000
+    },
+    "search": {
+      "caseSensitive": false,
+      "highlightMatches": true,
+      "expandMatchingNodes": true
+    }
+  },
+  "metadata": {
+    "created": "2024-09-16T10:00:00Z",
+    "lastModified": "2024-09-16T10:00:00Z",
+    "author": {
+      "name": "Nesty Viewer",
+      "email": null,
+      "website": "https://github.com/nestyviewer"
+    },
+    "tags": ["json", "viewer", "macos", "swift", "swiftui"],
+    "stats": {
+      "totalNodes": 42,
+      "maxDepth": 4,
+      "fileSize": "2.1KB",
+      "loadTime": 0.003
+    }
+  },
+  "testData": {
+    "numbers": {
+      "integer": 42,
+      "float": 3.14159,
+      "negative": -17,
+      "zero": 0,
+      "large": 9007199254740991
+    },
+    "strings": {
+      "simple": "Hello, World!",
+      "empty": "",
+      "withSpaces": "  padded string  ",
+      "unicode": "🌟 Unicode string with emoji 🚀",
+      "escaped": "String with \"quotes\" and \\backslashes\\"
+    },
+    "booleans": {
+      "true": true,
+      "false": false
+    },
+    "nullValue": null,
+    "arrays": {
+      "empty": [],
+      "numbers": [1, 2, 3, 4, 5],
+      "mixed": ["string", 42, true, null, {"nested": "object"}],
+      "nested": [
+        [1, 2],
+        [3, 4],
+        [5, 6]
+      ]
+    },
+    "deepNesting": {
+      "level1": {
+        "level2": {
+          "level3": {
+            "level4": {
+              "level5": {
+                "message": "Deep nesting test",
+                "depth": 5
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
